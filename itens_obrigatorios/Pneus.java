@@ -1,6 +1,6 @@
 package itens_obrigatorios;
 
-public class pneus {
+public class Pneus {
 
     private  Integer quantidadePneus;
 
@@ -8,7 +8,7 @@ public class pneus {
 
     private Integer quantidadeParafusoPneu;
 
-    public pneus (Integer quantidadePneus){
+    public Pneus(Integer quantidadePneus){
         setQuantidadePneus(quantidadePneus);
     }
     public Integer getQuantidadePneus(){
@@ -37,9 +37,9 @@ public class pneus {
         this.quantidadeParafusoPneu = quantidadeParafusoPneu;
     }
     public void ImprimeDados(){
-        System.out.print(" A quantidade de pneus é : " + getQuantidadePneus());
-        System.out.print("Quantidade de parafusos: " + getQuantidadeParafusoPneu());
-        System.out.println("Quantidade de calotas : " + getQuantidadeCalotas());
+        System.out.println(" - Quantidade de pneus : " + getQuantidadePneus());
+        System.out.println("-- Quantidade de parafusos: " + getQuantidadeParafusoPneu());
+        System.out.println("---Quantidade de calotas : " + getQuantidadeCalotas());
 
     }
 }
