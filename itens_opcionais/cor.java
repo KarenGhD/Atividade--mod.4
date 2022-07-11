@@ -1,2 +1,4 @@
-package itens_opcionais;public class cor {
+package itens_opcionais;
+
+public class cor {
 }

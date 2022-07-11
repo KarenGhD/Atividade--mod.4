@@ -1,2 +1,4 @@
-package itens_opcionais;public class direção {
+package itens_opcionais;
+
+public class direção {
 }
