@@ -1,2 +1,4 @@
-package itens_opcionais;public class Marca {
+package itens_opcionais;
+
+public class Marca {
 }
